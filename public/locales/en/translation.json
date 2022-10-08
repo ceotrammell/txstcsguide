@@ -1,11 +1,25 @@
 {
+    "LANGUAGE_FULL": "English",
     "APP": {
-        "TITLE": "TXST CS Student Guide"
+        "TITLE": "TXST CS Student Guide",
+        "SLOGAN": "A guide for Computer Science students",
+        "SUB_SLOGAN": "Collected by TXST CS Students"
+    },
+    "LANGUAGES": {
+        "ENGLISH": "English",
+        "SPANISH": "Español"
     },
     "MAIN_NAVBAR": {
         "BEGINNER": "Beginner",
         "ADVANCED": "Advanced",
         "CLUBS": "Clubs",
-        "JOBS": "Jobs"
+        "JOBS": "Jobs",
+        "GITHUB": "Github"
+    },
+    "HOME": {
+        "MAST_HEAD": {
+            "START_HERE": "Start Here",
+            "CS_PIC_ALT": "CS Guide Casual Graphic"
+        }
     }
 }

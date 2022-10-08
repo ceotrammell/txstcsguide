@@ -6,10 +6,7 @@ function Home() {
     const { t } = useTranslation();
 
   return (
-      <Container>
         <HomeMastHead></HomeMastHead>
-        Home
-      </Container>
   );
 }
 
