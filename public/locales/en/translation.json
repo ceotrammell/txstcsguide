@@ -1,0 +1,11 @@
+{
+    "APP": {
+        "TITLE": "TXST CS Student Guide"
+    },
+    "MAIN_NAVBAR": {
+        "BEGINNER": "Beginner",
+        "ADVANCED": "Advanced",
+        "CLUBS": "Clubs",
+        "JOBS": "Jobs"
+    }
+}
