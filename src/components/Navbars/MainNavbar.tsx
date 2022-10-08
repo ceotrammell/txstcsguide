@@ -8,6 +8,8 @@ import Home from '../../views/Home/Home';
 import Advanced from '../../views/Advanced/Advanced';
 import Clubs from '../../views/Clubs/Clubs';
 import Jobs from '../../views/Jobs/Jobs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 
 function MainNavbar() {
   const { t } = useTranslation();
@@ -25,9 +27,16 @@ function MainNavbar() {
                 <Nav.Link href="/clubs">    {t("MAIN_NAVBAR.CLUBS")}</Nav.Link>
                 <Nav.Link href="/jobs">     {t("MAIN_NAVBAR.JOBS")}</Nav.Link>
             </Nav>
-            <Navbar.Collapse className="justify-content-end">
+                <Nav className="justify-content-end">
+                  <Nav.Link
+                  href="https://github.com/ceotrammell/txstcsguide"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} size="lg" className='px-3'/>
+                  <span className="visually-hidden">{t("MAIN_NAVBAR.GITHUB")}</span>
+                </Nav.Link>
                 <LanguageSwitcher />
-            </Navbar.Collapse>
+              </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -1,4 +1,5 @@
 {
+    "LANGUAGE_FULL": "English",
     "APP": {
         "TITLE": "TXST CS Student Guide",
         "SLOGAN": "A guide for Computer Science students",
@@ -12,7 +13,8 @@
         "BEGINNER": "Beginner",
         "ADVANCED": "Advanced",
         "CLUBS": "Clubs",
-        "JOBS": "Jobs"
+        "JOBS": "Jobs",
+        "GITHUB": "Github"
     },
     "HOME": {
         "MAST_HEAD": {
