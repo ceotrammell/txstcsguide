@@ -45,5 +45,11 @@
                 "BODY": "Learn how to get internships and jobs."
             }
         }
+    },
+    "BEGINNER": {
+        "MAST_HEAD": {
+            "TITLE": "Beginner Resources",
+            "SUB_TITLE": "Links to make your life easier"
+        }
     }
 }

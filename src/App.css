@@ -64,3 +64,14 @@
   left: 0;
   bottom: 0;
 }
+
+li {
+  font-size: 14px;
+  margin-left: 10px;
+  list-style-type: disc;
+}
+
+.li-container {
+  padding-top: 10px;
+  transform: translateX(20px);
+}

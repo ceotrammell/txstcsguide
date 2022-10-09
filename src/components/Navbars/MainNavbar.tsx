@@ -24,9 +24,10 @@ function MainNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                <Nav.Link href="/advanced"> {t("MAIN_NAVBAR.ADVANCED")}</Nav.Link>
-                <Nav.Link href="/clubs">    {t("MAIN_NAVBAR.CLUBS")}</Nav.Link>
-                <Nav.Link href="/jobs">     {t("MAIN_NAVBAR.JOBS")}</Nav.Link>
+              <Nav.Link href="/beginner"> {t("MAIN_NAVBAR.BEGINNER")}</Nav.Link>
+              <Nav.Link href="/advanced"> {t("MAIN_NAVBAR.ADVANCED")}</Nav.Link>
+              <Nav.Link href="/clubs">    {t("MAIN_NAVBAR.CLUBS")}</Nav.Link>
+              <Nav.Link href="/jobs">     {t("MAIN_NAVBAR.JOBS")}</Nav.Link>
             </Nav>
                 <Nav className="justify-content-end">
                   <Nav.Link
@@ -45,10 +46,10 @@ function MainNavbar() {
       <div>
         <Routes>
           <Route path='/'         element={<Home/>} />
+          <Route path='/beginner' element={<Beginner/>} />
           <Route path='/advanced' element={<Advanced/>} />
           <Route path='/clubs'    element={<Clubs/>} />
           <Route path='/jobs'     element={<Jobs/>} />
-          <Route path='/beginner' element={<Beginner/>} />
         </Routes>
       </div>
     </div>
