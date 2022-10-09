@@ -6,15 +6,18 @@ import { Col, Row } from 'react-bootstrap';
 
 function BeginnerSectionCards() {
     const { t } = useTranslation();
+    const { i18n } = useTranslation();
 
   return (
     <Container fluid className="max-width px-5 my-5">
         <Row gutter={40}>
-            {(BeginnerCardData).map(data =>
+            {(BeginnerCardData).map(x => {
+                let data = x[`${i18n.language}` || 'en'];
+                return (
                 <Col className="card-body p-3 m-2 d-flex flex-column card mb-5 mb-xl-0"
                     key={uuid()}
                     xs={{ span: 8 }} 
-                    sm={{ span: 8 }} 
+                    sm={{ span: 8 }}
                     md={{ span: 6 }}
                     lg={{ span: 3 }} 
                     xl={{ span: 3 }}>
@@ -43,6 +46,7 @@ function BeginnerSectionCards() {
                     </a>
                 </Col>
             )}
+        )}
         </Row>
     </Container>
   );
