@@ -14,4 +14,14 @@ export const BeginnerCardData:
         ],
         link: 'https://www.catsweb.txstate.edu/students.html',
     },
+    {
+        title: 'TXST CS',
+        sub_title: 'Department homepage',
+        li_items: [
+            'see news',
+            'see upcoming events'
+        ],
+        link: 'https://cs.txstate.edu/',
+    },
 ];
+

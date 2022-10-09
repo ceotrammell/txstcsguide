@@ -50,6 +50,9 @@
         "MAST_HEAD": {
             "TITLE": "Recursos para principiantes",
             "SUB_TITLE": "Enlaces para hacerte la vida más fácil"
+        },
+        "CARDS": {
+            "GO": "Vaya"
         }
     }
 }
