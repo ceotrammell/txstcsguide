@@ -16,6 +16,10 @@
         "JOBS": "Jobs",
         "GITHUB": "Github"
     },
+    "MAIN_FOOTER": {
+        "LAST_UPDATED": "Last Updated",
+        "GITHUB": "Github"
+    },
     "HOME": {
         "MAST_HEAD": {
             "START_HERE": "Start Here",
