@@ -18,12 +18,20 @@ function MainFooter() {
             </Nav>
                 <Nav className="justify-content-end text-light">
                     <Nav.Link
-                    className="text-light"
-                    href="https://github.com/ceotrammell/txstcsguide"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    {t("MAIN_FOOTER.GITHUB")}
-                </Nav.Link>
+                        className="text-light"
+                        href="https://cs.txstate.edu/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        {t("MAIN_FOOTER.TXST_CS")}
+                    </Nav.Link>
+                    <Nav.Link className='noHover'>&bull;</Nav.Link>
+                    <Nav.Link
+                        className="text-light"
+                        href="https://github.com/ceotrammell/txstcsguide"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        {t("MAIN_FOOTER.GITHUB")}
+                    </Nav.Link>
               </Nav>
         </Navbar.Collapse>
       </Container>

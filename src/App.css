@@ -42,3 +42,7 @@
 .max-width {
   max-width: '100%';
 }
+
+.noHover{
+  pointer-events: none;
+}

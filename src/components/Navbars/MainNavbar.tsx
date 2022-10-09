@@ -10,6 +10,7 @@ import Clubs from '../../views/Clubs/Clubs';
 import Jobs from '../../views/Jobs/Jobs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
+import Beginner from '../../views/Beginner/beginner';
 
 function MainNavbar() {
   const { t } = useTranslation();
@@ -47,6 +48,7 @@ function MainNavbar() {
           <Route path='/advanced' element={<Advanced/>} />
           <Route path='/clubs'    element={<Clubs/>} />
           <Route path='/jobs'     element={<Jobs/>} />
+          <Route path='/beginner' element={<Beginner/>} />
         </Routes>
       </div>
     </div>

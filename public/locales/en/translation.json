@@ -18,12 +18,32 @@
     },
     "MAIN_FOOTER": {
         "LAST_UPDATED": "Last Updated",
-        "GITHUB": "Github"
+        "GITHUB": "Github",
+        "TXST_CS": "TXST CS"
     },
     "HOME": {
         "MAST_HEAD": {
             "START_HERE": "Start Here",
             "CS_PIC_ALT": "CS Guide Casual Graphic"
+        },
+        "SECTION_RESOURCES": {
+            "TITLE": "Making CS easier",
+            "BEGINNER_SECTION": {
+                "TITLE": "Beginner resources",
+                "BODY": "New to CS or feeling lost? Start here."
+            },
+            "ADVANCED_SECTION": {
+                "TITLE": "Advanced resources",
+                "BODY": "Advanced lectures and tutorials in Algorithms, AI, Cloud, Web, and others."
+            },
+            "CLUB_SECTION": {
+                "TITLE": "Club resources",
+                "BODY": "Make friends while learning topics not taught in the classrooms."
+            },
+            "JOB_SECTION": {
+                "TITLE": "Job resources",
+                "BODY": "Learn how to get internships and jobs."
+            }
         }
     }
 }
