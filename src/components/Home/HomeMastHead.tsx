@@ -19,7 +19,7 @@ function HomeMastHead() {
                                 {t("APP.SUB_SLOGAN")}
                                 </p>
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a className="btn btn-primary btn-lg px-4 me-sm-3" href="beginner.html">
+                                    <a className="btn btn-primary btn-lg px-4 me-sm-3" href="/beginner">
                                       {t("HOME.MAST_HEAD.START_HERE")}
                                     </a>
                                 </div>

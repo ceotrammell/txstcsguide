@@ -20,7 +20,7 @@ function HomeSectionResources() {
                         <div className="row gx-5 row-cols-1 row-cols-md-2">
                             <div className="col mb-5 h-100">
                                 <a href="/beginner" className="text-decoration-none">
-                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
+                                    <div className="feature bg-primary text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
                                         <FontAwesomeIcon style={{width:'50%', height:'50%'}} icon={faCode}/>
                                     </div>
                                 </a>
@@ -33,7 +33,7 @@ function HomeSectionResources() {
                             </div>
                             <div className="col mb-5 h-100">
                                 <a href="/advanced" className="text-decoration-none">
-                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
+                                    <div className="feature bg-primary text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
                                         <FontAwesomeIcon style={{width:'50%', height:'50%'}} icon={faFolderTree}/>
                                     </div>
                                 </a>
@@ -46,7 +46,7 @@ function HomeSectionResources() {
                             </div>
                             <div className="col mb-5 mb-md-0 h-100">
                                 <a href="/clubs" className="text-decoration-none">
-                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
+                                    <div className="feature bg-primary text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
                                         <FontAwesomeIcon style={{width:'50%', height:'50%'}} icon={faPeopleGroup}/>
                                     </div>
                                 </a>
@@ -59,7 +59,7 @@ function HomeSectionResources() {
                             </div>
                             <div className="col h-100">
                                 <a href="/jobs" className="text-decoration-none">
-                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
+                                    <div className="feature bg-primary text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
                                         <FontAwesomeIcon style={{width:'50%', height:'50%'}} icon={faIndustry}/>
                                     </div>
                                 </a>

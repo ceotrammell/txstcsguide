@@ -9,32 +9,26 @@ function MainFooter() {
   return (
     <div>
       <div>
-      <Navbar bg="dark" variant="dark" expand="lg">
-      <Container>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto text-light">
-                {/* leave this here */}
-            </Nav>
-                <Nav className="justify-content-end text-light">
-                    <Nav.Link
-                        className="text-light"
-                        href="https://cs.txstate.edu/"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        {t("MAIN_FOOTER.TXST_CS")}
-                    </Nav.Link>
-                    <Nav.Link className='noHover'>&bull;</Nav.Link>
-                    <Nav.Link
-                        className="text-light"
-                        href="https://github.com/ceotrammell/txstcsguide"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        {t("MAIN_FOOTER.GITHUB")}
-                    </Nav.Link>
+      <Navbar bg="dark" variant="dark" className='footer-pin-container'>
+        <Container>
+              <Nav className="me-auto text-light footer-pin-child">
               </Nav>
-        </Navbar.Collapse>
-      </Container>
+                  <Nav className="justify-content-end">
+                      <Nav.Link
+                          href="https://cs.txstate.edu/"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                          {t("MAIN_FOOTER.TXST_CS")}
+                      </Nav.Link>
+                      <Nav.Link className='noHover'>&bull;</Nav.Link>
+                      <Nav.Link
+                          href="https://github.com/ceotrammell/txstcsguide"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                          {t("MAIN_FOOTER.GITHUB")}
+                      </Nav.Link>
+                </Nav>
+        </Container>
     </Navbar>
       </div>
     </div>

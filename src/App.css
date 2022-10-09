@@ -46,3 +46,21 @@
 .noHover{
   pointer-events: none;
 }
+
+.bg-primary {
+  background-color: #0d6efd !important;
+}
+
+.bg-primary:hover {
+  background-color: #0b5ed7 !important;
+}
+
+.footer-pin-container {
+  min-height: calc(5vh - 34px);
+}
+
+.footer-pin-child {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
