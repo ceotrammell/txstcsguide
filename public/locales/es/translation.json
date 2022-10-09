@@ -18,12 +18,32 @@
     },
     "MAIN_FOOTER": {
         "LAST_UPDATED": "Última actualización",
-        "GITHUB": "Github"
+        "GITHUB": "Github",
+        "TXST_CS": "TXST CS"
     },
     "HOME": {
         "MAST_HEAD": {
             "START_HERE": "Empieza Aqui",
             "CS_PIC_ALT": "Guía CS Gráfico Casual"
+        },
+        "SECTION_RESOURCES": {
+            "TITLE": "Facilitando la CS",
+            "BEGINNER_SECTION": {
+                "TITLE": "Recursos para principiantes",
+                "BODY": "¿Eres nuevo en CS o te sientes perdido? Empieza aquí."
+            },
+            "ADVANCED_SECTION": {
+                "TITLE": "Recursos avanzados",
+                "BODY": "Conferencias y tutoriales avanzados en Algoritmos, IA, Cloud, Web y otros."
+            },
+            "CLUB_SECTION": {
+                "TITLE": "Recursos del club",
+                "BODY": "Haz amigos mientras aprendes temas que no se enseñan en las aulas."
+            },
+            "JOB_SECTION": {
+                "TITLE": "Recursos de trabajo",
+                "BODY": "Aprende cómo obtener pasantías y trabajos."
+            }
         }
     }
 }
