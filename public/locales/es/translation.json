@@ -45,5 +45,11 @@
                 "BODY": "Aprende cómo obtener pasantías y trabajos."
             }
         }
+    },
+    "BEGINNER": {
+        "MAST_HEAD": {
+            "TITLE": "Recursos para principiantes",
+            "SUB_TITLE": "Enlaces para hacerte la vida más fácil"
+        }
     }
 }
