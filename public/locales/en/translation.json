@@ -54,5 +54,14 @@
         "CARDS": {
             "GO": "Go"
         }
+    },
+    "ADVANCED": {
+        "MAST_HEAD": {
+            "TITLE": "Advanced Resources",
+            "SUB_TITLE": "Improve your skills here"
+        },
+        "CARDS": {
+            "GO": "Go"
+        }
     }
 }

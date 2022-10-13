@@ -54,5 +54,14 @@
         "CARDS": {
             "GO": "Vaya"
         }
+    },
+    "ADVANCED": {
+        "MAST_HEAD": {
+            "TITLE": "Recursos avanzados",
+            "SUB_TITLE": "Mejora tus habilidades aquí"
+        },
+        "CARDS": {
+            "GO": "Vaya"
+        }
     }
 }

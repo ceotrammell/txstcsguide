@@ -1,13 +1,14 @@
 import Container from 'react-bootstrap/Container';
-import { useTranslation } from "react-i18next";
+import AdvancedMastHead from '../../components/Advanced/AdvancedMastHead';
+import AdvancedSectionCards from '../../components/Advanced/AdvancedSectionCards';
 
 function Advanced() {
-    const { t } = useTranslation();
 
   return (
-      <Container>
-        Advanced
-      </Container>
+    <Container>
+    <AdvancedMastHead/>
+    <AdvancedSectionCards/>
+  </Container>
   );
 }
 
