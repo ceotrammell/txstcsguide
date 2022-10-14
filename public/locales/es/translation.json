@@ -68,18 +68,12 @@
         "MAST_HEAD": {
             "TITLE": "Recursos del club",
             "SUB_TITLE": "Conéctate con personas de ideas afines"
-        },
-        "CARDS": {
-            "GO": "Vaya"
         }
     },
     "JOBS": {
         "MAST_HEAD": {
             "TITLE": "Recursos de trabajo",
             "SUB_TITLE": "Ayudarle a encontrar y conseguir un trabajo"
-        },
-        "CARDS": {
-            "GO": "Vaya"
         }
     }
 }

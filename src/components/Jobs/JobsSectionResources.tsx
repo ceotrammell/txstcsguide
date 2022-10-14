@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import { useTranslation } from "react-i18next";
-import { BeginnerCardData } from '../../constants/BeginnerCardData';
+import { JobCardData } from '../../constants/JobCardData';
 import uuid from "react-uuid";
 import { Col, Row } from 'react-bootstrap';
 
@@ -11,7 +11,7 @@ function JobsSectionCards() {
   return (
     <Container fluid className="max-width px-5 my-5">
         <Row gutter={40}>
-            {(BeginnerCardData).map(x => {
+            {(JobCardData).map(x => {
                 let data = x[`${i18n.language}` || 'en'];
                 return (
                 <Col className="card-body p-3 m-2 d-flex flex-column card mb-5 mb-xl-0"
@@ -42,7 +42,7 @@ function JobsSectionCards() {
                     <a href={data?.link} 
                         className="btn btn-lg btn-block btn-outline-primary mt-auto" 
                         role="button" target="_blank" rel="noopener noreferrer">
-                        {t("BEGINNER.CARDS.GO")}
+                        {t("ADVANCED.CARDS.GO")}
                     </a>
                 </Col>
             )}
