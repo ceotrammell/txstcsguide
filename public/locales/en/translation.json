@@ -68,18 +68,12 @@
         "MAST_HEAD": {
             "TITLE": "Club Resources",
             "SUB_TITLE": "Connect with like minded people"
-        },
-        "CARDS": {
-            "GO": "Go"
         }
     },
     "JOBS": {
         "MAST_HEAD": {
             "TITLE": "Job Resources",
             "SUB_TITLE": "Helping you find and get a job"
-        },
-        "CARDS": {
-            "GO": "Go"
         }
     }
 }
