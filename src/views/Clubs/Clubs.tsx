@@ -1,14 +1,15 @@
 import Container from 'react-bootstrap/Container';
-import { useTranslation } from "react-i18next";
+import ClubsMastHead from '../../components/Clubs/ClubsMastHead';
+import ClubsSectionCards from '../../components/Clubs/ClubsSectionResources';
 
-function Home() {
-    const { t } = useTranslation();
+function Clubs() {
 
   return (
       <Container>
-        Clubs
+        <ClubsMastHead/>
+        <ClubsSectionCards/>
       </Container>
   );
 }
 
-export default Home;
+export default Clubs;

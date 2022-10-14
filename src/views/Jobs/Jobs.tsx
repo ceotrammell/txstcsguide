@@ -1,14 +1,15 @@
 import Container from 'react-bootstrap/Container';
-import { useTranslation } from "react-i18next";
+import JobsMastHead from '../../components/Jobs/JobsMastHead';
+import JobsSectionCards from '../../components/Jobs/JobsSectionResources';
 
-function Home() {
-    const { t } = useTranslation();
+function Jobs() {
 
   return (
       <Container>
-        Jobs
+        <JobsMastHead/>
+        <JobsSectionCards/>
       </Container>
   );
 }
 
-export default Home;
+export default Jobs;
