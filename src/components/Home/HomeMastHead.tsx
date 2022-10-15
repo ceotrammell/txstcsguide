@@ -1,6 +1,5 @@
 import Container from 'react-bootstrap/Container';
 import { useTranslation } from "react-i18next";
-import csPic from '../../assets/imgs/cs-pic.jpeg';
 
 function HomeMastHead() {
     const { t } = useTranslation();
@@ -26,7 +25,7 @@ function HomeMastHead() {
                             </div>
                         </div>
                         <div className="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-                          <img className="img-fluid rounded-3 my-5" src={csPic} alt={t("HOME.MAST_HEAD.CS_PIC_ALT")} /></div>
+                          <img className="img-fluid rounded-3 my-5" src="assets/imgs/cs-pic.jpg" alt={t("HOME.MAST_HEAD.CS_PIC_ALT")} /></div>
                     </div>
                 </div>
             </header>
