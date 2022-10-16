@@ -16,6 +16,7 @@ jobs:
       with:
         node-version: 14.17.0
     - run:
+        su github-actions-user
         npm i
         npm run build
         pm2 stop 0
