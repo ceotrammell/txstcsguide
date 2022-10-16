@@ -23,8 +23,6 @@
     "bootstrap": "^5.2.2",
     "i18next": "^21.10.0",
     "i18next-http-backend": "^1.4.4",
-    "node-sass": "^7.0.3",
-    "process": "^0.11.10",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
@@ -32,6 +30,7 @@
     "react-router-dom": "^6.4.2",
     "react-scripts": "^5.0.1",
     "react-uuid": "^1.0.3",
+    "sass-loader": "^13.1.0",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
