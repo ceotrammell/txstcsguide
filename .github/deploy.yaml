@@ -1,0 +1,26 @@
+name: txstcsstudentguide CI/CD
+
+on:
+  push:
+    branches: [ production ]
+
+jobs:
+  build-and-deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 16
+      uses: actions/setup-node@v2
+      with:
+        node-version: 16
+        cache: 'npm'
+    - run: npm install
+    - run: npm build:prod
+    - run: echo -e "Host github-actions-user\n\tUser github-actions-user\n\tHostname txstcsstudentguide\n\tIdentityFile ~/.ssh/github-action\n\tStrictHostKeyChecking No" >> ~/.ssh/config
+    - run: rsync -e ssh public github-actions-user:~/static
+    - run: rsync -e ssh built/app.js github-actions-user:~/static/js/app.js
+    - run: rsync -e ssh built/server.js github-actions-user:~/api/server.js
+    - run: su github-actions-user 
+    - run: pm2 reload all
