@@ -1,5 +1,5 @@
 # TXST CS Student Guide
-![Production Status](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=production) 
+![Production Status](https://github.com/ceotrammell/txstcsguide/actions/workflows/deploy.yaml/badge.svg)
 
 ### Frontend
 - React.js
