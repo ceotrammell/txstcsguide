@@ -21,7 +21,6 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "bootstrap": "^5.2.2",
-    "esbuild": "^0.15.11",
     "express": "^4.18.2",
     "i18next": "^21.10.0",
     "i18next-http-backend": "^1.4.4",
@@ -39,10 +38,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "client:build": "esbuild .//src/index.tsx --bundle --minify --outfile=built/app.js --loader:.js=jsx",
-    "server:build": "esbuild server/src/server.tsx --bundle --minify --outfile=built/server.js --loader:.js=jsx --platform=node",
-    "build:prod": "npm run client:build && npm run server:build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

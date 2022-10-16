@@ -5,22 +5,18 @@ on:
     branches: [ production ]
 
 jobs:
-  build-and-deploy:
+  build:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js 16
-      uses: actions/setup-node@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
       with:
-        node-version: 16
-        cache: 'npm'
-    - run: npm install
-    - run: npm run build:prod
-    - run: echo -e "Host github-actions-user\n\tUser github-actions-user\n\tHostname txstcsstudentguide\n\tIdentityFile ~/.ssh/github-action\n\tStrictHostKeyChecking No" >> ~/.ssh/config
-    - run: rsync -e ssh public github-actions-user:~/static
-    - run: rsync -e ssh built/app.js github-actions-user:~/static/js/app.js
-    - run: rsync -e ssh built/server.js github-actions-user:~/api/server.js
-    - run: su github-actions-user 
-    - run: pm2 reload all
+        node-version: ${{ matrix.node-version }}
+    - run:
+        npm i
+        cd frontend
+        npm i
+        npm run build
