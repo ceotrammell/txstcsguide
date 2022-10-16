@@ -42,7 +42,7 @@
     "eject": "react-scripts eject",
     "client:build": "esbuild .//src/index.tsx --bundle --minify --outfile=built/app.js --loader:.js=jsx",
     "server:build": "esbuild server/src/server.ts --bundle --minify --outfile=built/server.js --loader:.js=jsx --platform=node",
-    "build:prod": "npm client:build && npm server:build"
+    "build:prod": "npm run client:build && npm run server:build"
   },
   "eslintConfig": {
     "extends": [
