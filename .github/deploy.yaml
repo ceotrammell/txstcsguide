@@ -17,7 +17,7 @@ jobs:
         node-version: 16
         cache: 'npm'
     - run: npm install
-    - run: npm build:prod
+    - run: npm run build:prod
     - run: echo -e "Host github-actions-user\n\tUser github-actions-user\n\tHostname txstcsstudentguide\n\tIdentityFile ~/.ssh/github-action\n\tStrictHostKeyChecking No" >> ~/.ssh/config
     - run: rsync -e ssh public github-actions-user:~/static
     - run: rsync -e ssh built/app.js github-actions-user:~/static/js/app.js
