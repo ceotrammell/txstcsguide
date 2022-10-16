@@ -23,6 +23,7 @@
     "bootstrap": "^5.2.2",
     "i18next": "^21.10.0",
     "i18next-http-backend": "^1.4.4",
+    "node-sass": "^7.0.3",
     "process": "^0.11.10",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
