@@ -15,10 +15,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 14.17.0
-    - run:
-        npm i
-        npm run build
-        pm2 stop 0
-        pm2 start 0
-        pm2 save
-        sudo service nginx restart
+    - run: npm i
+    - run: npm run build
+    - run: pm2 stop 0
+    - run: pm2 start 0
+    - run: pm2 save
+    - run: sudo service nginx restart
