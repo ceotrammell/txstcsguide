@@ -7,8 +7,6 @@ function App() {
   return (
     <div className="App">
       <MainNavbar/>
-      {/* <header className="App-header">
-      </header> */}
       <MainFooter/>
     </div>
   );
