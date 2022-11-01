@@ -10,11 +10,26 @@
         "SPANISH": "Español"
     },
     "MAIN_NAVBAR": {
-        "BEGINNER": "Principiante",
-        "ADVANCED": "Avanzado",
-        "CLUBS": "Clubs",
-        "JOBS": "Trabajos",
-        "GITHUB": "Github"
+        "BEGINNER": {
+            "TITLE": "Principiante",
+            "ALT": "Haga clic para ir a la página para principiantes"
+        },
+        "ADVANCED": {
+            "TITLE": "Avanzado",
+            "ALT": "Haga clic para ir a la página avanzada"
+        },
+        "CLUBS": {
+            "TITLE": "Clubs",
+            "ALT": "Haga clic para ir a la página de clubs"
+        },
+        "JOBS": {
+            "TITLE": "Trabajos",
+            "ALT": "Haga clic para ir a la página de empleos"
+        },
+        "GITHUB": {
+            "TITLE": "Github",
+            "ALT": "Haga clic para ir a la página de GitHub. Esto navegará fuera de este sitio web."
+        }
     },
     "MAIN_FOOTER": {
         "LAST_UPDATED": "Última actualización",

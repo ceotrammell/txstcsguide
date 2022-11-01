@@ -10,11 +10,26 @@
         "SPANISH": "Español"
     },
     "MAIN_NAVBAR": {
-        "BEGINNER": "Beginner",
-        "ADVANCED": "Advanced",
-        "CLUBS": "Clubs",
-        "JOBS": "Jobs",
-        "GITHUB": "Github"
+        "BEGINNER": {
+            "TITLE": "Beginner",
+            "ALT": "click to go to the beginner page"
+        },
+        "ADVANCED": {
+            "TITLE": "Advanced",
+            "ALT": "click to go to the advanced page"
+        },
+        "CLUBS": {
+            "TITLE": "Clubs",
+            "ALT": "click to go to the clubs page"
+        },
+        "JOBS": {
+            "TITLE": "Jobs",
+            "ALT": "click to go to the jobs page"
+        },
+        "GITHUB": {
+            "TITLE": "Github",
+            "ALT": "click to go to the github page. This will navigate outside of this website."
+        }
     },
     "MAIN_FOOTER": {
         "LAST_UPDATED": "Last Updated",
