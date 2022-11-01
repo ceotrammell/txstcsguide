@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import uuid from "react-uuid";
 
 function setLanguageStorage(lang) {
   localStorage.setItem("language", JSON.stringify(lang))
@@ -11,9 +12,10 @@ function setLanguageStorage(lang) {
 function LanguageSwitcher() {
   const { i18n } = useTranslation();
   const { t } = useTranslation();
+  let aria = uuid();
 
   return (
-    <Navbar.Collapse id="basic-navbar-nav">
+    <Navbar.Collapse id={aria}>
       <Nav className="me-auto">
         <NavDropdown bg="dark" variant="dark" className="text-light"
           value={i18n.language}
