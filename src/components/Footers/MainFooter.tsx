@@ -17,15 +17,19 @@ function MainFooter() {
                       <Nav.Link
                           href="https://cs.txstate.edu/"
                           target="_blank"
-                          rel="noopener noreferrer">
-                          {t("MAIN_FOOTER.TXST_CS")}
+                          rel="noopener noreferrer"
+                          aria-required="true" 
+                          aria-label={t("MAIN_FOOTER.TXST_CS.ALT")}>
+                          {t("MAIN_FOOTER.TXST_CS.TITLE")}
                       </Nav.Link>
                       <Nav.Link className='noHover'>&bull;</Nav.Link>
                       <Nav.Link
                           href="https://github.com/ceotrammell/txstcsguide"
                           target="_blank"
-                          rel="noopener noreferrer">
-                          {t("MAIN_FOOTER.GITHUB")}
+                          rel="noopener noreferrer"
+                          aria-required="true" 
+                          aria-label={t("MAIN_FOOTER.GITHUB.ALT")}>
+                          {t("MAIN_FOOTER.GITHUB.TITLE")}
                       </Nav.Link>
                 </Nav>
         </Container>
