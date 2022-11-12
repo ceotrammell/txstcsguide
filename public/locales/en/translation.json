@@ -3,7 +3,10 @@
     "APP": {
         "TITLE": "TXST CS Student Guide",
         "SLOGAN": "A guide for Computer Science students",
-        "SUB_SLOGAN": "Collected by TXST CS Students"
+        "SUB_SLOGAN": "Collected by TXST CS Students",
+        "CLICK_TO": "Click to go to the ",
+        "WEB_PAGE": " web page. ",
+        "WILL_NAVIGATE_AWAY": "This will navigate outside of this website."
     },
     "LANGUAGES": {
         "ENGLISH": "English",
@@ -32,13 +35,21 @@
         }
     },
     "MAIN_FOOTER": {
-        "LAST_UPDATED": "Last Updated",
-        "GITHUB": "Github",
-        "TXST_CS": "TXST CS"
+        "GITHUB": {
+            "TITLE": "Github",
+            "ALT": "click to go to the github page. This will navigate outside of this website."
+        },
+        "TXST_CS": {
+            "TITLE": "TXST CS",
+            "ALT": "Click to go to the Texas State Computer Science page. This will navigate outside of this website."
+        }        
     },
     "HOME": {
         "MAST_HEAD": {
-            "START_HERE": "Start Here",
+            "START_HERE":{
+                "TITLE": "Start Here",
+                "ALT": "Click to go start with the beginner page."
+            },
             "CS_PIC_ALT": "CS Guide Casual Graphic"
         },
         "SECTION_RESOURCES": {
