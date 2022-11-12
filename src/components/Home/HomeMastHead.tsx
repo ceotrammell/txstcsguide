@@ -18,7 +18,7 @@ function HomeMastHead() {
                                 {t("APP.SUB_SLOGAN")}
                                 </p>
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a className="btn btn-primary btn-lg px-4 me-sm-3" href="/beginner" aria-required="true" aria-label={t("HOME.MAST_HEAD.START_HERE.ALT")}>
+                                    <a className="btn btn-primary btn-lg px-4 me-sm-3" href="/beginner" aria-label={t("HOME.MAST_HEAD.START_HERE.ALT")}>
                                       {t("HOME.MAST_HEAD.START_HERE.TITLE")}
                                     </a>
                                 </div>
@@ -26,8 +26,7 @@ function HomeMastHead() {
                         </div>
                         <div className="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
                           <img className="img-fluid rounded-3 my-5" src="assets/imgs/cs-pic.jpg" 
-                          alt={t("HOME.MAST_HEAD.CS_PIC_ALT")} 
-                          aria-required="true" 
+                          alt={t("HOME.MAST_HEAD.CS_PIC_ALT")}
                           aria-label={t("HOME.MAST_HEAD.CS_PIC_ALT")}/></div>
                     </div>
                 </div>
