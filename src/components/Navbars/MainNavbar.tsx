@@ -35,9 +35,15 @@ function MainNavbar() {
                   <Nav.Link
                   href="https://github.com/ceotrammell/txstcsguide"
                   target="_blank"
-                  rel="noopener noreferrer">
+                  rel="noopener noreferrer"
+                  aria-required="true" aria-label={t("MAIN_NAVBAR.GITHUB.ALT")}>
                   <FontAwesomeIcon icon={faGithub} size="lg" className='px-3'/>
-                  <span className="visually-hidden" aria-required="true" aria-label={t("MAIN_NAVBAR.GITHUB.ALT")}>{t("MAIN_NAVBAR.GITHUB.TITLE")}</span>
+                  <span 
+                    className="visually-hidden" 
+                    aria-required="true" 
+                    aria-label={t("MAIN_NAVBAR.GITHUB.ALT")}>
+                      {t("MAIN_NAVBAR.GITHUB.TITLE")}
+                  </span>
                 </Nav.Link>
                 <LanguageSwitcher />
               </Nav>
