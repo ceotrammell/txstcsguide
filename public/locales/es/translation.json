@@ -3,7 +3,10 @@
     "APP": {
         "TITLE": "Guía del estudiante de TXST CS",
         "SLOGAN": "Una guía para estudiantes de informática.",
-        "SUB_SLOGAN": "Recopilado por TXST CS Students"
+        "SUB_SLOGAN": "Recopilado por TXST CS Students",
+        "CLICK_TO": "Haga clic para ir a la ",
+        "WEB_PAGE": " página web. ",
+        "WILL_NAVIGATE_AWAY": "Esto navegará fuera de este sitio web."
     },
     "LANGUAGES": {
         "ENGLISH": "English",

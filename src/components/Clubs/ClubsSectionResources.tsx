@@ -5,6 +5,7 @@ import uuid from "react-uuid";
 import { Col, Row } from 'react-bootstrap';
 
 function ClubsSectionCards() {
+    const { t } = useTranslation();
     const { i18n } = useTranslation();
 
   return (
@@ -26,7 +27,9 @@ function ClubsSectionCards() {
                     {data?.links?.map(links => {
                         return (
                             <div key={uuid()} className="card-body p-1 d-flex flex-column">
-                                <a href={links?.link} 
+                                <a href={links?.link}
+                                        aria-required="true" 
+                                        aria-label={t("APP.CLICK_TO") + data?.title + t("APP.WEB_PAGE") + t("APP.WILL_NAVIGATE_AWAY")}
                                         className="btn btn-lg btn-block btn-outline-primary mt-auto" 
                                         role="button" target="_blank" rel="noopener noreferrer">
                                     {links?.title} 
