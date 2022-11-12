@@ -32,13 +32,21 @@
         }
     },
     "MAIN_FOOTER": {
-        "LAST_UPDATED": "Última actualización",
-        "GITHUB": "Github",
-        "TXST_CS": "TXST CS"
+        "GITHUB": {
+            "TITLE": "Github",
+            "ALT": "Haga clic para ir a la página de GitHub. Esto navegará fuera de este sitio web."
+        },
+        "TXST_CS": {
+            "TITLE": "TXST CS",
+            "ALT": "Haga clic para ir a la página de Ciencias de la Computación del Estado de Texas.Esto navegará fuera de este sitio web."
+        }
     },
     "HOME": {
         "MAST_HEAD": {
-            "START_HERE": "Empieza Aqui",
+            "START_HERE":{
+                "TITLE": "Empieza Aqui",
+                "ALT": "Haga clic para comenzar con la página para principiantes."
+            },
             "CS_PIC_ALT": "Guía CS Gráfico Casual"
         },
         "SECTION_RESOURCES": {

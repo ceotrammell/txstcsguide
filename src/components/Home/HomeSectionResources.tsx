@@ -19,9 +19,9 @@ function HomeSectionResources() {
                     <div className="col-lg-8">
                         <div className="row gx-5 row-cols-1 row-cols-md-2">
                             <div className="col mb-5 h-100">
-                                <a href="/beginner" className="text-decoration-none">
+                                <a href="/beginner" className="text-decoration-none" aria-required="true" aria-label={t("MAIN_NAVBAR.BEGINNER.ALT")}>
                                     <div className="feature bg-primary text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
-                                        <FontAwesomeIcon style={{width:'50%', height:'50%'}} icon={faCode}/>
+                                        <FontAwesomeIcon style={{width:'80%', height:'80%'}} icon={faCode}/>
                                     </div>
                                 </a>
                                 <h2 className="h5 d-flex justify-content-start">
@@ -32,9 +32,9 @@ function HomeSectionResources() {
                                 </p>
                             </div>
                             <div className="col mb-5 h-100">
-                                <a href="/advanced" className="text-decoration-none">
+                                <a href="/advanced" className="text-decoration-none" aria-required="true" aria-label={t("MAIN_NAVBAR.ADVANCED.ALT")}>
                                     <div className="feature bg-primary text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
-                                        <FontAwesomeIcon style={{width:'50%', height:'50%'}} icon={faFolderTree}/>
+                                        <FontAwesomeIcon style={{width:'80%', height:'80%'}} icon={faFolderTree}/>
                                     </div>
                                 </a>
                                 <h2 className="h5 d-flex justify-content-start">
@@ -45,9 +45,9 @@ function HomeSectionResources() {
                                 </p>
                             </div>
                             <div className="col mb-5 mb-md-0 h-100">
-                                <a href="/clubs" className="text-decoration-none">
+                                <a href="/clubs" className="text-decoration-none" aria-required="true" aria-label={t("MAIN_NAVBAR.CLUBS.ALT")}>
                                     <div className="feature bg-primary text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
-                                        <FontAwesomeIcon style={{width:'50%', height:'50%'}} icon={faPeopleGroup}/>
+                                        <FontAwesomeIcon style={{width:'80%', height:'80%'}} icon={faPeopleGroup}/>
                                     </div>
                                 </a>
                                 <h2 className="h5 d-flex justify-content-start">
@@ -58,9 +58,9 @@ function HomeSectionResources() {
                                 </p>
                             </div>
                             <div className="col h-100">
-                                <a href="/jobs" className="text-decoration-none">
+                                <a href="/jobs" className="text-decoration-none" aria-required="true" aria-label={t("MAIN_NAVBAR.JOBS.ALT")}>
                                     <div className="feature bg-primary text-white rounded-3 mb-3 p-3 float-left" style={{width:'20%'}}>
-                                        <FontAwesomeIcon style={{width:'50%', height:'50%'}} icon={faIndustry}/>
+                                        <FontAwesomeIcon style={{width:'80%', height:'80%'}} icon={faIndustry}/>
                                     </div>
                                 </a>
                                 <h2 className="h5 d-flex justify-content-start">
