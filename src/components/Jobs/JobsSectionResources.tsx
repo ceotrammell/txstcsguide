@@ -39,7 +39,8 @@ function JobsSectionCards() {
                             );
                         })}
                     </ul>
-                    <a href={data?.link} 
+                    <a href={data?.link}
+                        aria-label={t("APP.CLICK_TO") + data?.title + t("APP.WEB_PAGE") + t("APP.WILL_NAVIGATE_AWAY")}
                         className="btn btn-lg btn-block btn-outline-primary mt-auto" 
                         role="button" target="_blank" rel="noopener noreferrer">
                         {t("ADVANCED.CARDS.GO")}

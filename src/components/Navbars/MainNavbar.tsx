@@ -11,9 +11,11 @@ import Jobs from '../../views/Jobs/Jobs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import Beginner from '../../views/Beginner/beginner';
+import uuid from "react-uuid";
 
 function MainNavbar() {
   const { t } = useTranslation();
+  let aria = uuid();
 
   return (
     <div>
@@ -21,21 +23,27 @@ function MainNavbar() {
       <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">     {t("APP.TITLE")}</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls={aria} />
+        <Navbar.Collapse id={aria}>
             <Nav className="me-auto">
-              <Nav.Link href="/beginner"> {t("MAIN_NAVBAR.BEGINNER")}</Nav.Link>
-              <Nav.Link href="/advanced"> {t("MAIN_NAVBAR.ADVANCED")}</Nav.Link>
-              <Nav.Link href="/clubs">    {t("MAIN_NAVBAR.CLUBS")}</Nav.Link>
-              <Nav.Link href="/jobs">     {t("MAIN_NAVBAR.JOBS")}</Nav.Link>
+              <Nav.Link href="/beginner" aria-required="true" aria-label={t("MAIN_NAVBAR.BEGINNER.ALT")}> {t("MAIN_NAVBAR.BEGINNER.TITLE")}</Nav.Link>
+              <Nav.Link href="/advanced" aria-required="true" aria-label={t("MAIN_NAVBAR.ADVANCED.ALT")}> {t("MAIN_NAVBAR.ADVANCED.TITLE")}</Nav.Link>
+              <Nav.Link href="/clubs"    aria-required="true" aria-label={t("MAIN_NAVBAR.CLUBS.ALT")}>    {t("MAIN_NAVBAR.CLUBS.TITLE")}</Nav.Link>
+              <Nav.Link href="/jobs"     aria-required="true" aria-label={t("MAIN_NAVBAR.JOBS.ALT")}>     {t("MAIN_NAVBAR.JOBS.TITLE")}</Nav.Link>
             </Nav>
                 <Nav className="justify-content-end">
                   <Nav.Link
                   href="https://github.com/ceotrammell/txstcsguide"
                   target="_blank"
-                  rel="noopener noreferrer">
+                  rel="noopener noreferrer"
+                  aria-required="true" aria-label={t("MAIN_NAVBAR.GITHUB.ALT")}>
                   <FontAwesomeIcon icon={faGithub} size="lg" className='px-3'/>
-                  <span className="visually-hidden">{t("MAIN_NAVBAR.GITHUB")}</span>
+                  <span 
+                    className="visually-hidden" 
+                    aria-required="true" 
+                    aria-label={t("MAIN_NAVBAR.GITHUB.ALT")}>
+                      {t("MAIN_NAVBAR.GITHUB.TITLE")}
+                  </span>
                 </Nav.Link>
                 <LanguageSwitcher />
               </Nav>

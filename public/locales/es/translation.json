@@ -3,27 +3,53 @@
     "APP": {
         "TITLE": "Guía del estudiante de TXST CS",
         "SLOGAN": "Una guía para estudiantes de informática.",
-        "SUB_SLOGAN": "Recopilado por TXST CS Students"
+        "SUB_SLOGAN": "Recopilado por TXST CS Students",
+        "CLICK_TO": "Haga clic para ir a la ",
+        "WEB_PAGE": " página web. ",
+        "WILL_NAVIGATE_AWAY": "Esto navegará fuera de este sitio web."
     },
     "LANGUAGES": {
         "ENGLISH": "English",
         "SPANISH": "Español"
     },
     "MAIN_NAVBAR": {
-        "BEGINNER": "Principiante",
-        "ADVANCED": "Avanzado",
-        "CLUBS": "Clubs",
-        "JOBS": "Trabajos",
-        "GITHUB": "Github"
+        "BEGINNER": {
+            "TITLE": "Principiante",
+            "ALT": "Haga clic para ir a la página para principiantes"
+        },
+        "ADVANCED": {
+            "TITLE": "Avanzado",
+            "ALT": "Haga clic para ir a la página avanzada"
+        },
+        "CLUBS": {
+            "TITLE": "Clubs",
+            "ALT": "Haga clic para ir a la página de clubs"
+        },
+        "JOBS": {
+            "TITLE": "Trabajos",
+            "ALT": "Haga clic para ir a la página de empleos"
+        },
+        "GITHUB": {
+            "TITLE": "Github",
+            "ALT": "Haga clic para ir a la página de GitHub. Esto navegará fuera de este sitio web."
+        }
     },
     "MAIN_FOOTER": {
-        "LAST_UPDATED": "Última actualización",
-        "GITHUB": "Github",
-        "TXST_CS": "TXST CS"
+        "GITHUB": {
+            "TITLE": "Github",
+            "ALT": "Haga clic para ir a la página de GitHub. Esto navegará fuera de este sitio web."
+        },
+        "TXST_CS": {
+            "TITLE": "TXST CS",
+            "ALT": "Haga clic para ir a la página de Ciencias de la Computación del Estado de Texas.Esto navegará fuera de este sitio web."
+        }
     },
     "HOME": {
         "MAST_HEAD": {
-            "START_HERE": "Empieza Aqui",
+            "START_HERE":{
+                "TITLE": "Empieza Aqui",
+                "ALT": "Haga clic para comenzar con la página para principiantes."
+            },
             "CS_PIC_ALT": "Guía CS Gráfico Casual"
         },
         "SECTION_RESOURCES": {
