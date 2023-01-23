@@ -5,8 +5,8 @@ function HomeMastHead() {
     const { t } = useTranslation();
 
   return (
-      <Container fluid className="bg-dark max-width">
-        <header className="bg-dark max-width">
+      <Container fluid className="themeOverride-header-container max-width">
+        <header className="themeOverride-header-container max-width">
                 <div className="container px-5">
                     <div className="row gx-5 align-items-center justify-content-center">
                         <div className="col-lg-8 col-xl-7 col-xxl-6">
