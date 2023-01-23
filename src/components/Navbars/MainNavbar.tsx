@@ -12,6 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import Beginner from '../../views/Beginner/beginner';
 import uuid from "react-uuid";
+import ThemeSwitcher from '../ThemeSwitcher';
 
 function MainNavbar() {
   const { t } = useTranslation();
@@ -20,7 +21,7 @@ function MainNavbar() {
   return (
     <div>
       <div>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar variant="dark" expand="lg" className='themeOverride-header-container'>
       <Container>
         <Navbar.Brand as={Link} to="/">     {t("APP.TITLE")}</Navbar.Brand>
         <Navbar.Toggle aria-controls={aria} />
@@ -46,6 +47,7 @@ function MainNavbar() {
                   </span>
                 </Nav.Link>
                 <LanguageSwitcher />
+                <ThemeSwitcher/>
               </Nav>
         </Navbar.Collapse>
       </Container>
