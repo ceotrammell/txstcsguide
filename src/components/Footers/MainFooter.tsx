@@ -9,7 +9,7 @@ function MainFooter() {
   return (
     <div>
       <div>
-      <Navbar bg="dark" variant="dark" className='footer-pin-container'>
+      <Navbar variant="dark" className='footer-pin-container themeOverride-footer-container'>
         <Container>
               <Nav className="me-auto text-light footer-pin-child">
               </Nav>

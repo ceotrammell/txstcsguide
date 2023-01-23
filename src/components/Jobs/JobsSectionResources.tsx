@@ -14,7 +14,7 @@ function JobsSectionCards() {
             {(JobCardData).map(x => {
                 let data = x[`${i18n.language}` || 'en'];
                 return (
-                <Col className="card-body p-3 m-2 d-flex flex-column card mb-5 mb-xl-0"
+                <Col className="card-body p-3 m-2 d-flex flex-column card mb-5 mb-xl-0 themeOverride-col"
                     key={uuid()}
                     xs={{ span: 8 }} 
                     sm={{ span: 8 }}

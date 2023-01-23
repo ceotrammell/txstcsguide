@@ -17,7 +17,7 @@ function LanguageSwitcher() {
   return (
     <Navbar.Collapse id={aria}>
       <Nav className="me-auto">
-        <NavDropdown bg="dark" variant="dark" className="text-light"
+        <NavDropdown variant="dark" className="text-light"
           value={i18n.language}
           title={t("LANGUAGE_FULL")}
           id={`offcanvasNavbarDropdown-expand-lg`}>
