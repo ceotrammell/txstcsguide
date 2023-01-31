@@ -1,7 +1,7 @@
 # TXST CS Student Guide
 [txstcsstudentguide.com](https://www.txstcsstudentguide.com/)
 
-![Production Status](https://github.com/ceotrammell/txstcsguide/actions/workflows/deploy.yaml/badge.svg)
+[![Build Status](https://github.com/ceotrammell/txstcsguide/actions/workflows/deploy.yaml/badge.svg)](https://github.com/ceotrammell/txstcsguide/actions)
 
 ### Frontend
 - React.js
